@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "body-parser": "1.20",
+    "express": "4.18"
+  }
+}
