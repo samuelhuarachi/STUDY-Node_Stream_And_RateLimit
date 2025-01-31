@@ -1,0 +1,22 @@
+{
+    "name": "data_integration",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --no-warnings src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/parser": "^8.22.0",
+        "eslint": "^8.57.0",
+        "eslint-config-google": "^0.14.0",
+        "prettier-eslint": "^16.3.0",
+        "typescript-eslint": "^8.22.0"
+    },
+    "dependencies": {
+        "csvtojson": "^2.0.10"
+    }
+}

@@ -1,11 +1,24 @@
 {
-  "name": "webapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Samuel Gomes",
-  "license": "ISC"
+    "dependencies": {
+        "body-parser": "1.20",
+        "express": "4.18",
+        "express-rate-limit": "^6.6"
+    },
+    "name": "study-node_stream_and_ratelimit",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "devDependencies": {
+        "@typescript-eslint/parser": "^8.22.0",
+        "eslint": "^8.57.0",
+        "eslint-config-google": "^0.14.0",
+        "prettier-eslint": "^16.3.0",
+        "typescript-eslint": "^8.22.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
 }
